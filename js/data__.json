@@ -1,0 +1,217 @@
+var data={
+    "state": [
+      {
+        "name": "Washington",
+        "city": [
+          { "name": "Seattle" },{ "name": "Spokane" },{ "name": "Tacoma" },{ "name": "Vancouver" },{ "name": "Bellevue" },{ "name": "Kent" },{ "name": "Everett" },{ "name": "Renton" },{ "name": "Yakima" },{ "name": "Federal Way" },{ "name": "Spokane Valley" },{ "name": "Bellingham" },{ "name": "Kennewick" },{ "name": "Auburn" },{ "name": "Pasco" },{ "name": "Marysville" },{ "name": "Lakewood" },{ "name": "Redmond" },{ "name": "Shoreline" },{ "name": "Kirkland" },{ "name": "Richland" },{ "name": "Olympia" },{ "name": "Sammamish" },{ "name": "Lacey" },{ "name": "Edmonds" },{ "name": "Bremerton" },{ "name": "Puyallup" },{ "name": "Longview" },{ "name": "Lynnwood" },{ "name": "Bothell" },{ "name": "Burien" },{ "name": "Wenatchee" },{ "name": "Walla Walla" },{ "name": "Mount Vernon" },{ "name": "University Place" },{ "name": "Issaquah" },{ "name": "Des Moines" }
+        ]
+      },
+      {
+        "name": "Oregon",
+        "city": [
+          { "name": "Albany" },{ "name": "Beaverton" },{ "name": "Bend" },{ "name": "Corvallis" },{ "name": "Eugene" },{ "name": "Grants Pass" },{ "name": "Gresham" },{ "name": "Hillsboro" },{ "name": "Keizer" },{ "name": "Lake Oswego" },{ "name": "McMinnville" },{ "name": "Medford" },{ "name": "Oregon City" },{ "name": "Portland" },{ "name": "Salem" },{ "name": "Springfield" },{ "name": "Tigard" }
+        ]
+      },
+      {
+        "name": "Nevada",
+        "city": [
+          { "name": "Carson" },{ "name": "Henderson" },{ "name": "Las Vegas" },{ "name": "North Las Vegas" },{ "name": "Reno" },{ "name": "Sparks" },{ "name": "Los Angeles" },{ "name": "San Diego" },{ "name": "San Jose" },{ "name": "San Francisco" },{ "name": "Fresno" },{ "name": "Sacramento" },{ "name": "Long Beach" },{ "name": "Oakland" },{ "name": "Bakersfield" },{ "name": "Anaheim" },{ "name": "Santa Ana" },{ "name": "Riverside" },{ "name": "Stockton" },{ "name": "Chula Vista" },{ "name": "Fremont" },{ "name": "Irvine" },{ "name": "San Bernardino" },{ "name": "Modesto" },{ "name": "Oxnard" },{ "name": "Fontana" },{ "name": "Moreno Valley" },{ "name": "Glendale" },{ "name": "Huntington Beach" },{ "name": "Santa Clarita" },{ "name": "Garden Grove" },{ "name": "Santa Rosa" },{ "name": "Oceanside" },{ "name": "Rancho Cucamonga" },{ "name": "Ontario" },{ "name": "Lancaster" },{ "name": "Elk Grove" },{ "name": "Palmdale" },{ "name": "Corona" },{ "name": "Salinas" },{ "name": "Pomona" },{ "name": "Torrance" },{ "name": "Hayward" },{ "name": "Escondido" },{ "name": "Sunnyvale" },{ "name": "Pasadena" },{ "name": "Fullerton" },{ "name": "Orange" },{ "name": "Thousand Oaks" },{ "name": "Visalia" },{ "name": "Simi Valley" },{ "name": "Concord" },{ "name": "Roseville" },{ "name": "Santa Clara" },{ "name": "Vallejo" },{ "name": "Victorville" },{ "name": "El Monte" },{ "name": "Berkeley" },{ "name": "Downey" },{ "name": "Costa Mesa" },{ "name": "Inglewood" },{ "name": "Ventura" },{ "name": "West Covina" },{ "name": "Norwalk" },{ "name": "Fairfield" },{ "name": "Richmond" },{ "name": "Murrieta" },{ "name": "Burbank" },{ "name": "Antioch" },{ "name": "Daly City" },{ "name": "Temecula" },{ "name": "Santa Maria" },{ "name": "El Cajon" },{ "name": "Rialto" },{ "name": "San Mateo" },{ "name": "Compton" },{ "name": "Clovis" },{ "name": "Jurupa Valley" },{ "name": "South Gate" },{ "name": "Vista" },{ "name": "Mission Viejo" },{ "name": "Vacaville" },{ "name": "Carson" },{ "name": "Hesperia" },{ "name": "Redding" },{ "name": "Santa Monica" },{ "name": "Westminster" },{ "name": "Santa Barbara" },{ "name": "Chico" },{ "name": "Whittier" },{ "name": "Newport Beach" },{ "name": "San Leandro" },{ "name": "Hawthorne" },{ "name": "San Marcos" },{ "name": "Citrus Heights" },{ "name": "Alhambra" },{ "name": "Tracy" },{ "name": "Livermore" },{ "name": "Buena Park" },{ "name": "Lakewood" },{ "name": "Merced" },{ "name": "Hemet" },{ "name": "Chino" },{ "name": "Menifee" },{ "name": "Lake Forest" },{ "name": "Napa" },{ "name": "Redwood City" },{ "name": "Bellflower" },{ "name": "Indio" },{ "name": "Tustin" },{ "name": "Baldwin Park" },{ "name": "Chino Hills" },{ "name": "Mountain View" },{ "name": "Alameda" },{ "name": "Upland" },{ "name": "Folsom" },{ "name": "San Ramon" },{ "name": "Pleasanton" },{ "name": "Lynwood" },{ "name": "Union City" },{ "name": "Apple Valley" },{ "name": "Redlands" }
+        ]
+      },
+      {
+        "name": "Arizona",
+        "city": [
+            { "name": "Apache Junction" },{ "name": "Avondale" },{ "name": "Benson" },{ "name": "Bisbee" },{ "name": "Buckeye" },{ "name": "Bullhead City" },{ "name": "Camp Verde" },{ "name": "Carefree" },{ "name": "Casa Grande" },{ "name": "Cave Creek" },{ "name": "Chandler" },{ "name": "Chino Valley" },{ "name": "Clarkdale" },{ "name": "Clifton" },{ "name": "Colorado City" },{ "name": "Coolidge" },{ "name": "Cottonwood" },{ "name": "Dewey-Humboldt" },{ "name": "Douglas" },{ "name": "Duncan" },{ "name": "Eagar" },{ "name": "El Mirage" },{ "name": "Eloy" },{ "name": "Flagstaff" },{ "name": "Florence" },{ "name": "Fountain Hills" },{ "name": "Fredonia" },{ "name": "Gila Bend" },{ "name": "Gilbert" },{ "name": "Glendale" },{ "name": "Globe" },{ "name": "Goodyear" },{ "name": "Guadalupe" },{ "name": "Hayden" },{ "name": "Holbrook" },{ "name": "Huachuca City" },{ "name": "Jerome" },{ "name": "Kearny" },{ "name": "Kingman" },{ "name": "Lake Havasu City" },{ "name": "Litchfield Park" },{ "name": "Mammoth" },{ "name": "Marana" },{ "name": "Maricopa" },{ "name": "Mesa" },{ "name": "Miami" },{ "name": "Nogales" },{ "name": "Oro Valley" },{ "name": "Page" },{ "name": "Paradise Valley" },{ "name": "Parker" },{ "name": "Patagonia" },{ "name": "Payson" },{ "name": "Peoria" },{ "name": "Phoenix" },{ "name": "Pima" },{ "name": "Pinetop-Lakeside" },{ "name": "Prescott" },{ "name": "Prescott Valley" },{ "name": "Quartzsite" },{ "name": "Queen Creek" },{ "name": "Safford" },{ "name": "Sahuarita" },{ "name": "San Luis" },{ "name": "Scottsdale" },{ "name": "Sedona" },{ "name": "Show Low" },{ "name": "Sierra Vista" },{ "name": "Snowflake" },{ "name": "Somerton" },{ "name": "South Tucson" },{ "name": "Springerville" },{ "name": "St. Johns" },{ "name": "Star Valley" },{ "name": "Superior" },{ "name": "Surprise" },{ "name": "Taylor" },{ "name": "Tempe" },{ "name": "Thatcher" },{ "name": "Tolleson" },{ "name": "Tombstone" },{ "name": "Tucson" },{ "name": "Tusayan" },{ "name": "Wellton" },{ "name": "Wickenburg" },{ "name": "Willcox" },{ "name": "Williams" },{ "name": "Winkelman" },{ "name": "Winslow" },{ "name": "Youngtown" },{ "name": "Yuma" }
+        ]
+      },
+      {
+        "name": "New Mexico",
+        "city": [
+            { "name": "Alamogordo" },{ "name": "Albuquerque" },{ "name": "Clovis" },{ "name": "Farmington" },{ "name": "Hobbs" },{ "name": "Las Cruces" },{ "name": "Rio Rancho" },{ "name": "Roswell" },{ "name": "Santa Fe" },{ "name": "Tucumcari" }
+        ]
+      },
+      {
+        "name": "Texas",
+        "city": [
+            { "name": "Houston" },{ "name": "San Antonio" },{ "name": "Dallas" },{ "name": "Austin" },{ "name": "Fort Worth" },{ "name": "El Paso" },{ "name": "Arlington" },{ "name": "Corpus Christi" },{ "name": "Plano" },{ "name": "Laredo" },{ "name": "Lubbock" },{ "name": "Garland" },{ "name": "Irving" },{ "name": "Amarillo" },{ "name": "Grand Prairie" },{ "name": "Brownsville" },{ "name": "Pasadena" },{ "name": "Mesquite" },{ "name": "McKinney" },{ "name": "McAllen" },{ "name": "Killeen" },{ "name": "Waco" },{ "name": "Carrollton" },{ "name": "Frisco" },{ "name": "Beaumont" },{ "name": "Abilene" },{ "name": "Denton" },{ "name": "Midland" },{ "name": "Round Rock" },{ "name": "Wichita Falls" },{ "name": "Odessa" },{ "name": "Richardson" },{ "name": "Lewisville" },{ "name": "Tyler" },{ "name": "College Station" },{ "name": "San Angelo" },{ "name": "Pearland" },{ "name": "Allen" },{ "name": "League City" },{ "name": "Sugar Land" },{ "name": "Longview" },{ "name": "Mission" },{ "name": "Edinburg" },{ "name": "Bryan" },{ "name": "Baytown" },{ "name": "Pharr" },{ "name": "Missouri City" },{ "name": "Temple" },{ "name": "Flower Mound" },{ "name": "Harlingen" },{ "name": "North Richland Hills" },{ "name": "Victoria" },{ "name": "New Braunfels" },{ "name": "Conroe" },{ "name": "Mansfield" },{ "name": "Rowlett" },{ "name": "Port Arthur" },{ "name": "Euless" },{ "name": "Cedar Park" },{ "name": "DeSoto" },{ "name": "Georgetown" },{ "name": "Pflugerville" },{ "name": "Galveston" },{ "name": "Bedford" },{ "name": "Grapevine" },{ "name": "San Marcos" },{ "name": "Cedar Hill" },{ "name": "Texas City" },{ "name": "Haltom City" },{ "name": "Wylie" },{ "name": "Keller" },{ "name": "Coppell" },{ "name": "Duncanville" },{ "name": "Rockwall" },{ "name": "Sherman" },{ "name": "Huntsville" },{ "name": "Hurst" },{ "name": "The Colony" },{ "name": "Burleson" },{ "name": "Lancaster" },{ "name": "Weslaco" },{ "name": "Texarkana" },{ "name": "Friendswood" },{ "name": "Del Rio" },{ "name": "Lufkin" },{ "name": "San Juan" },{ "name": "La Porte" },{ "name": "Nacogdoches" },{ "name": "Socorro" },{ "name": "Deer Park" },{ "name": "Copperas Cove" },{ "name": "Schertz" },{ "name": "Rosenberg" },{ "name": "Waxahachie" }
+        ]
+      },
+      {
+        "name": "Utah",
+        "city": [
+            { "name": "Salt Lake City" },{ "name": "West Valley City" },{ "name": "Provo" },{ "name": "West Jordan" },{ "name": "Orem" },{ "name": "Sandy" },{ "name": "Ogden" },{ "name": "St. George" },{ "name": "Layton" },{ "name": "Taylorsville" },{ "name": "South Jordan" },{ "name": "Logan" },{ "name": "Lehi" },{ "name": "Murray" },{ "name": "Bountiful" },{ "name": "Draper" },{ "name": "Riverton" },{ "name": "Roy" },{ "name": "Spanish Fork" },{ "name": "Pleasant Grove" },{ "name": "Cottonwood Heights" },{ "name": "Tooele" },{ "name": "Clearfield" }
+        ]
+      },
+      {
+        "name": "Colorado",
+        "city": [
+            { "name": "Aguilar" },{ "name": "Akron" },{ "name": "Alamosa" },{ "name": "Alma" },{ "name": "Antonito" },{ "name": "Arriba" },{ "name": "Arvada" },{ "name": "Aspen" },{ "name": "Ault" },{ "name": "Aurora" },{ "name": "Avon" },{ "name": "Basalt" },{ "name": "Bayfield" },{ "name": "Bennett" },{ "name": "Berthoud" },{ "name": "Bethune" },{ "name": "Black Hawk" },{ "name": "Blanca" },{ "name": "Blue River" },{ "name": "Bonanza" },{ "name": "Boone" },{ "name": "Boulder" },{ "name": "Bow Mar" },{ "name": "Branson" },{ "name": "Breckenridge" },{ "name": "Brighton" },{ "name": "Brookside" },{ "name": "Broomfield" },{ "name": "Brush" },{ "name": "Buena Vista" },{ "name": "Burlington" },{ "name": "Calhan" },{ "name": "Campo" },{ "name": "Canon City" },{ "name": "Carbondale" },{ "name": "Castle Pines North" },{ "name": "Castle Rock" },{ "name": "Cedaredge" },{ "name": "Centennial" },{ "name": "Center" },{ "name": "Central City" },{ "name": "Cheraw" },{ "name": "Cherry Hills Village" },{ "name": "Cheyenne Wells" },{ "name": "Coal Creek" },{ "name": "Cokedale" },{ "name": "Collbran" },{ "name": "Colorado Springs" },{ "name": "Columbine Valley" },{ "name": "Commerce City" },{ "name": "Cortez" },{ "name": "Craig" },{ "name": "Crawford" },{ "name": "Creede" },{ "name": "Crested Butte" },{ "name": "Crestone" },{ "name": "Cripple Creek" },{ "name": "Crook" },{ "name": "Crowley" },{ "name": "Dacono" },{ "name": "De Beque" },{ "name": "Deer trail" },{ "name": "Del Norte" },{ "name": "Delta" },{ "name": "Denver" },{ "name": "Dillon" },{ "name": "Dinosaur" },{ "name": "Dolores" },{ "name": "Dove Creek" },{ "name": "Durango" },{ "name": "Eads" },{ "name": "Eagle" },{ "name": "Eaton" },{ "name": "Eckley" },{ "name": "Edgewater" },{ "name": "Elizabeth" },{ "name": "Empire" },{ "name": "Englewood" },{ "name": "Erie" },{ "name": "Estes Park" },{ "name": "Evans" },{ "name": "Fairplay" },{ "name": "Federal Heights" },{ "name": "Firestone" },{ "name": "Flagler" },{ "name": "Fleming" },{ "name": "Florence" },{ "name": "Fort Collins" },{ "name": "Fort Lupton" },{ "name": "Fort Morgan" },{ "name": "Fountain" },{ "name": "Fowler" },{ "name": "Foxfield" },{ "name": "Fraser" },{ "name": "Frederick" },{ "name": "Frisco" },{ "name": "Fruita" },{ "name": "Garden City" },{ "name": "Genoa" },{ "name": "Georgetown" },{ "name": "Gilcrest" },{ "name": "Glendale" },{ "name": "Glenwood Springs" },{ "name": "Golden" },{ "name": "Granada" },{ "name": "Granby" },{ "name": "Grand Junction" },{ "name": "Grand Lake" },{ "name": "Greeley" },{ "name": "Green Mountain Falls" },{ "name": "Greenwood Village" },{ "name": "Grover" },{ "name": "Gunnison" },{ "name": "Gypsum" },{ "name": "Hartman" },{ "name": "Haswell" },{ "name": "Haxtun" },{ "name": "Hayden" },{ "name": "Hillrose" },{ "name": "Holly" },{ "name": "Holyoke" },{ "name": "Hooper" },{ "name": "Hot Sulphur Springs" },{ "name": "Hotchkiss" },{ "name": "Hudson" },{ "name": "Hugo" },{ "name": "Idaho Springs" },{ "name": "Ignacio" },{ "name": "Iliff" },{ "name": "Jamestown" },{ "name": "Johnstown" },{ "name": "Julesburg" },{ "name": "Keenesburg" },{ "name": "Kersey" },{ "name": "Kim" },{ "name": "Kiowa" },{ "name": "Kit Carson" },{ "name": "Kremmling" },{ "name": "La Jara" },{ "name": "La Junta" },{ "name": "La Veta" },{ "name": "Lafayette" },{ "name": "Lake City" },{ "name": "Lakeside" },{ "name": "Lakewood" },{ "name": "Lamar" },{ "name": "Larkspur" },{ "name": "Las Animas" },{ "name": "LaSalle" },{ "name": "Leadville" },{ "name": "Limon" },{ "name": "Littleton" },{ "name": "Lochbuie" },{ "name": "Log Lane Village" },{ "name": "Lone tree" },{ "name": "Longmont" },{ "name": "Louisville" },{ "name": "Loveland" },{ "name": "Lyons" },{ "name": "Manassa" },{ "name": "Mancos" },{ "name": "Manitou Springs" },{ "name": "Manzanola" },{ "name": "Marble" },{ "name": "Mead" },{ "name": "Meeker" },{ "name": "Merino" },{ "name": "Milliken" },{ "name": "Minturn" },{ "name": "Moffat" },{ "name": "Monte Vista" },{ "name": "Montezuma" },{ "name": "Montrose" },{ "name": "Monument" },{ "name": "Morrison" },{ "name": "Mount Crested Butte" },{ "name": "Mountain View" },{ "name": "Mountain Village" },{ "name": "Naturita" },{ "name": "Nederland" },{ "name": "New Castle" },{ "name": "Northglenn" },{ "name": "Norwood" },{ "name": "Nucla" },{ "name": "Nunn" },{ "name": "Oak Creek" },{ "name": "Olathe" },{ "name": "Olney Springs" },{ "name": "Ophir" },{ "name": "Orchard City" },{ "name": "Ordway" },{ "name": "Otis" },{ "name": "Ouray" },{ "name": "Ovid" },{ "name": "Pagosa Springs" },{ "name": "Palisade" },{ "name": "Palmer Lake" },{ "name": "Paoli" },{ "name": "Paonia" },{ "name": "Parachute" },{ "name": "Parker" },{ "name": "Peetz" },{ "name": "Pierce" },{ "name": "Pitkin" },{ "name": "Platteville" },{ "name": "Poncha Springs" },{ "name": "Pritchett" },{ "name": "Pueblo" },{ "name": "Ramah" },{ "name": "Rangely" },{ "name": "Raymer" },{ "name": "Red Cliff" },{ "name": "Rico" },{ "name": "Ridgway" },{ "name": "Rifle" },{ "name": "Rockvale" },{ "name": "Rocky Ford" },{ "name": "Romeo" },{ "name": "Rye" },{ "name": "Saguache[32]" },{ "name": "Salida" },{ "name": "San Luis" },{ "name": "Sanford" },{ "name": "Sawpit" },{ "name": "Sedgwick" },{ "name": "Seibert" },{ "name": "Severance" },{ "name": "Sheridan Lake" },{ "name": "Sheridan" },{ "name": "Silt" },{ "name": "Silver Cliff" },{ "name": "Silver Plume" },{ "name": "Silverthorne" },{ "name": "Silverton" },{ "name": "Simla" },{ "name": "Snowmass Village" },{ "name": "South Fork" },{ "name": "Springfield" },{ "name": "Starkville" },{ "name": "Steamboat Springs" },{ "name": "Sterling" },{ "name": "Stratton" },{ "name": "Sugar City" },{ "name": "Superior" },{ "name": "Swink" },{ "name": "Telluride" },{ "name": "Thornton" },{ "name": "Timnath" },{ "name": "trinidad" },{ "name": "Two Buttes" },{ "name": "Vail" },{ "name": "Victor" },{ "name": "Vilas" },{ "name": "Vona" },{ "name": "Walden" },{ "name": "Walsenburg" },{ "name": "Walsh" },{ "name": "Ward" },{ "name": "Wellington" },{ "name": "Westcliffe" },{ "name": "Westminster" },{ "name": "Wheat Ridge" },{ "name": "Wiggins" },{ "name": "Wiley" },{ "name": "Williamsburg" },{ "name": "Windsor" },{ "name": "Winter Park" },{ "name": "Woodland Park" },{ "name": "Wray" },{ "name": "Yampa" },{ "name": "Yuma" }
+        ]
+      },
+      {
+        "name": "Illinois",
+        "city": [
+            { "name": "Chicago" },{ "name": "Aurora" },{ "name": "Rockford" },{ "name": "Joliet" },{ "name": "Naperville" },{ "name": "Springfield" },{ "name": "Peoria" },{ "name": "Elgin" },{ "name": "Waukegan" },{ "name": "Cicero" },{ "name": "Champaign" },{ "name": "Bloomington" },{ "name": "Decatur" },{ "name": "Arlington Heights" },{ "name": "Evanston" },{ "name": "Des Plaines" },{ "name": "Berwyn" },{ "name": "Wheaton" },{ "name": "Belleville" },{ "name": "Elmhurst" },{ "name": "De Kalb" },{ "name": "Moline" },{ "name": "Urbana" },{ "name": "Crystal Lake" },{ "name": "Quincy" },{ "name": "Rock Island" },{ "name": "Park Ridge" },{ "name": "Calumet City" },{ "name": "Pekin" },{ "name": "Danville" },{ "name": "St. Charles" },{ "name": "North Chicago" },{ "name": "Galesburg" },{ "name": "Chicago Heights" },{ "name": "Burbank" },{ "name": "O'Fallon" },{ "name": "Oak Forest" },{ "name": "Alton" },{ "name": "Kankakee" }
+        ]
+      },
+      {
+        "name": "North Carolina",
+        "city": [
+            { "name": "Asheville" },{ "name": "Burlington" },{ "name": "Charlotte" },{ "name": "Concord" },{ "name": "Durham" },{ "name": "Fayetteville" },{ "name": "Gastonia" },{ "name": "Goldsboro" },{ "name": "Greensboro" },{ "name": "Greenville" },{ "name": "Hickory" },{ "name": "High Point" },{ "name": "Jacksonville" },{ "name": "Monroe" },{ "name": "Raleigh" },{ "name": "Rocky Mount" },{ "name": "Salisbury" },{ "name": "Wilmington" },{ "name": "Wilson" },{ "name": "Winston-Salem" }
+        ]
+      },
+      {
+        "name": "Alabama",
+        "city": [
+            { "name": "Birmingham" },{ "name": "Montgomery" }
+        ]
+      },
+      {
+        "name": "Alaska",
+        "city": [
+            { "name": "Anchorage" }
+        ]
+      },
+      {
+        "name": "District of Columbia",
+        "city": [
+            { "name": "Washington" }
+        ]
+      },
+      {
+        "name": "Florida",
+        "city": [
+            { "name": "Jacksonville" },{ "name": "Miami" },{ "name": "Hialeah" },{ "name": "St. Petersburg" },{ "name": "Orlando" },{ "name": "Tampa" }
+        ]
+      },
+      {
+        "name": "Hawai'i",
+        "city": [
+            { "name": "Honolulu" }
+        ]
+      },
+      {
+        "name": "Idaho",
+        "city": [
+            { "name": "Boise" }
+        ]
+      },
+      {
+        "name": "Indiana",
+        "city": [
+            { "name": "Indianapolis" },{ "name": "Fort Wayne" }
+        ]
+      },
+      {
+        "name": "Iowa",
+        "city": [
+            { "name": "Des Moines" }
+        ]
+      },
+      {
+        "name": "Kansas",
+        "city": [
+            { "name": "Wichita" }
+        ]
+      },
+      {
+        "name": "Kentucky",
+        "city": [
+            { "name": "Louisville" },{ "name": "Lexington" }
+        ]
+      },
+      {
+        "name": "Louisiana",
+        "city": [
+            { "name": "New Orleans" },{ "name": "Baton Rouge" },{ "name": "Shreveport" }
+        ]
+      },
+      {
+        "name": "Maryland",
+        "city": [
+            { "name": "Baltimore" }
+        ]
+      },
+      {
+        "name": "Massachusetts",
+        "city": [
+            { "name": "Boston" }
+        ]
+      },
+      {
+        "name": "Michigan",
+        "city": [
+            { "name": "Detroit" }
+        ]
+      },
+      {
+        "name": "Minnesota",
+        "city": [
+            { "name": "Minneapolis" },{ "name": "Saint Paul" }
+        ]
+      },
+      {
+        "name": "Missouri",
+        "city": [
+            { "name": "Kansas City" },{ "name": "St. Louisl" }
+        ]
+      }
+      
+      
+      ,
+      {
+        "name": "Nebraska",
+        "city": [
+            { "name": "Omaha" },{ "name": "Lincoln" }
+        ]
+      },
+      {
+        "name": "New Jersey",
+        "city": [
+            { "name": "Newark" },{ "name": "Jersey City" }
+        ]
+      },
+      {
+        "name": "New York",
+        "city": [
+            { "name": "New York" },{ "name": "Buffalo" },{ "name": "Rochester" }
+        ]
+      },
+      { 
+        "name": "Ohio",
+        "city": [
+            { "name": "Columbus" },{ "name": "Cleveland" },{ "name": "Cincinnati" },{ "name": "Toledo" }
+        ]
+      },
+      {
+        "name": "Oklahoma",
+        "city": [
+            { "name": "Oklahoma City" },{ "name": "Tulsa" }
+        ]
+      },
+      {
+        "name": "Pennsylvania",
+        "city": [
+            { "name": "Philadelphia" },{ "name": "Pittsburgh" }
+        ]
+      },
+      {
+        "name": "Tennessee",
+        "city": [
+            { "name": "Memphis" },{ "name": "Nashville" }
+        ]
+      },
+      {
+        "name": "Virginia",
+        "city": [
+            { "name": "Virginia Beach" },{ "name": "Norfolk" },{ "name": "Chesapeake" },{ "name": "Richmond" }
+        ]
+      },
+      {
+        "name": "Wisconsin",
+        "city": [
+            { "name": "Milwaukee" },{ "name": "Madison" }
+        ]
+      }
+    ]
+}
