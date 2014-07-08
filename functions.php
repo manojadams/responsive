@@ -25,6 +25,9 @@ require( $template_directory . '/core/includes/hooks.php' );
 require( $template_directory . '/core/includes/version.php' );
 require( $template_directory . '/core/includes/upsell/theme-upsell.php' );
 
+//==========================musico system============================
+require( $template_directory . '/musico/functions.php' );
+
 // Return value of the supplied responsive free theme option.
 function responsive_free_get_option( $option, $default = false ) {
 	global $responsive_options;
@@ -116,7 +119,6 @@ function widget ($args,$instance) {
             </select><br>
             Edad entre:<br>
             <select style="width:50px" class="agbusca" name="edad_min">
-             
             <option value="15">18</option>
             <option value="20">20</option>
             <option value="25">25</option>

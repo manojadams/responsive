@@ -34,7 +34,12 @@ get_header(); ?>
 			<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 				<?php responsive_entry_top(); ?>
 
-				<?php get_template_part( 'post-meta' ); ?>
+				<?php 
+                    if(in_category('event'))
+                        get_template_part('hire-me');
+                    else
+                        get_template_part( 'post-meta' );       
+                ?>
 <?php echo do_shortcode('[author-post-rating]'); ?>
 				<div class="post-entry">
 <?php

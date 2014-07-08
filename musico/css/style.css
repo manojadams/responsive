@@ -1,0 +1,49 @@
+/*Musico Styles*/
+
+
+/**********1) Rating*******************/
+.hire-bottons {
+    font-size: 10px !important;
+}
+.displayUserReputation {
+position: relative;
+}
+.insidebar .userRating {
+    float: right;
+}
+.userRating {
+	width: 100px;
+    position: relative;
+    margin: 0 auto;
+}
+.rating-wrapper {
+max-width: 500px;
+width: 500px;
+position: absolute;
+top:20px;right:0;
+display:none;
+text-align: left;
+background: white;
+border: 1px solid black;
+padding: 20px;
+z-index: 100;
+}
+
+.userRating:hover .rating-wrapper {
+	display: block;
+}
+.userRating > img {
+       vertical-align: top;
+}
+.userRating span.ratingCount {
+        font-size: 120%;
+        font-weight: bold;
+}
+
+div.insidebar {
+    text-align: center;
+}
+div.insidebar .userRating {
+    float:  none;
+    margin:  0 auto;
+}
